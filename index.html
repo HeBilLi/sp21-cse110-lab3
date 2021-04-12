@@ -5,7 +5,7 @@
     <title>Beilei's Journal Entries</title>
     <meta name="keywords" content="instruction, journal">
     <meta name="author" content="Beilei He">
-    <link rel="icon" type="image/png" href="iconn.png">
+    <link rel="icon" type="image/png" href="resources/iconn.png">
 </head>
 
 <body>
@@ -40,14 +40,14 @@
                 Natural Language Processing.</p>
             <p> I had a better understanding of <strong>how text entries are converted to vectors.</strong> </p>
             <h4>Some Pictures</h4>
-            <img src="IMG_1.png" height="300" alt="something wrong" />
+            <img src="resources/IMG_1.png" height="300" alt="something wrong" />
             <h4>Song for the Day</h4>
             <audio controls>
-                <source src="Starman.mp3" type="audio/mpeg" />
+                <source src="resources/Starman.mp3" type="audio/mpeg" />
             </audio>
-            <h4>Funny Video for the Day</h4>
+            <h4>Video for the Day</h4>
             <video controls width="250">
-                <source src="VID_1.mp4" type="video/mp4">
+                <source src="resources/VID_1.mp4" type="video/mp4">
             </video>
         </section>
         <hr>
@@ -63,7 +63,7 @@
                 </ul>
                 <h4>LowLights</h4>
                 <ul>
-                    <li>Did <span>have a good sleep</span></li>
+                    <li>Did not <span>have a good sleep</span></li>
                     <li>Failed to focus during the lecture (of course not cse110)</li>
                 </ul>
                 <h4>Tasks</h4>
@@ -77,14 +77,14 @@
                 lectures</p>
             <p> Learned a lot about <i>teamwork</i> from cse110.</p>
             <h4>Some Pictures</h4>
-            <img src="IMG_2.png" height="300" alt="Something wrong" />
+            <img src="resources/IMG_2.png" height="300" alt="Something wrong" />
             <h4>Song for the Day</h4>
             <audio controls>
-                <source src="Song2.mp3" type="audio/mpeg" />
+                <source src="resources/Song2.mp3" type="audio/mpeg" />
             </audio>
-            <h4>Funny Video for the Day</h4>
+            <h4>Video for the Day</h4>
             <video controls width="250">
-                <source src="VID_2.mp4" type="video/mp4">
+                <source src="resources/VID_2.mp4" type="video/mp4">
             </video>
         </section>
         <hr>
@@ -104,7 +104,7 @@
                 </ul>
                 <h4>Tasks</h4>
                 <ol>
-                    <li>Finish <b>lab2</b></li>
+                    <li>Finish <em>lab2</em></li>
                     <li>Start to review for the quiz</li>
                 </ol>
             </div>
@@ -122,64 +122,82 @@
                 overseas Chinese populations. (From wikipedia)
             </details>
             <h4>Some Pictures</h4>
-            <img src="IMG_3.png" height="300" alt="Something wrong" />
+            <img src="resources/IMG_3.png" height="300" alt="Something wrong" />
             <h4>Song for the Day</h4>
             <audio controls>
-                <source src="Song3.mp3" type="audio/mpeg" />
+                <source src="resources/Song3.mp3" type="audio/mpeg" />
             </audio>
-            <h4>Funny Video for the Day</h4>
+            <h4>Video for the Day</h4>
             <video controls width="250">
-                <source src="VID_3.mp4" type="video/mp4">
+                <source src="resources/VID_3.mp4" type="video/mp4">
             </video>
 
 
         </section>
         <section>
             <h2>Create next journal</h2>
-            <label>Choose a theme for the new journal:</label>
-            <input list="theme-option" id="ice-cream-choice" name="ice-cream-choice" />
-            <datalist id="theme-option">
-                <option value="Basic">
-                <option value="Fancy">
-            </datalist>
+            <fieldset>
+                <legend>Content Generater</legend>
 
-            <form>
-                <label>First Header:</label><br>
-                <input type="text"><br>
-                <label >Second Header:</label><br>
-                <input type="text"><br>
-            </form>
-            <h4>How many sections in this new journal?</h4>
-            <form>
-                <input type="radio">
-                <label>1</label><br>
-                <input type="radio">
-                <label>2</label><br>
-                <input type="radio">
-                <label>3</label>
-            </form>
-            <h4>Which of the lists are needed?</h4>
+                <label>Choose a theme for the new journal:</label>
+                <input list="theme-option" />
+                <datalist id="theme-option">
+                    <option value="Basic">
+                    <option value="Fancy">
+                </datalist>
+    
+                <h4>What are headers of new journal?</h4>
+                <form>
+                    <label>First Header:</label><br>
+                    <input type="text"><br>
+                    <label>Second Header:</label><br>
+                    <input type="text"><br>
+                </form>
 
-            <form>
-                <input type="checkbox">
-                <label>Highlights</label><br>
-                <input type="checkbox">
-                <label>Lowlights</label><br>
-                <input type="checkbox">
-                <label>Tasks</label>
-            </form>
+                <h4>How many sections in this new journal?</h4>
+                <form>
+                    <input type="radio">
+                    <label>1</label><br>
+                    <input type="radio">
+                    <label>2</label><br>
+                    <input type="radio">
+                    <label>3</label>
+                </form>
 
-            <h4>What is the date for the new journal?</h4>
-            <form>
-                <input type="date">
-            </form>
-            <h4>What is the content for the new journal?</h4>
-            <textarea rows="5" cols="33">Type here to start</textarea>
-            <br>
-            <button type="button">Create!</button>
+                <h4>Which of the lists are needed?</h4>
+                <form>
+                    <input type="checkbox">
+                    <label>Highlights</label><br>
+                    <input type="checkbox">
+                    <label>Lowlights</label><br>
+                    <input type="checkbox">
+                    <label>Tasks</label>
+                </form>
+    
+                <h4>What is the date for the new journal?</h4>
+                <form>
+                    <input type="date">
+                </form>
+    
+                <h4>Choose a theme for the video of the day:</h4>
+                <select name="pets" id="pet-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="funny">Funny</option>
+                    <option value="animation">Animation</option>
+                    <option value="landscape">Landscape</option>
+                    <option value="emotional">Emotional</option>
+                </select>
+    
+                <h4>What is the content for the new journal?</h4>
+                <textarea rows="5" cols="33">Type here to start</textarea>
+                <br>
+                <button type="button">Create!</button>
+            </fieldset>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>Author: Beilei He</p>
+    </footer>
 </body>
 
 </html>
