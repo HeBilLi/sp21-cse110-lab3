@@ -9,15 +9,30 @@
 
 .newEntry{
     background-color: rgb(58, 79, 68);
+    margin: auto;
+    padding: 8px;
+    
 }
 
 .note{
     background-color: hsl(10,20,30);
 }
 
-section:not(.special){
+
+
+section{
     width: 50vw;
     margin: 10px 5px 10px 5px;
+}
+.special{
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:  rgb(34, 21, 2);
+    border-radius: 1em;
+}
+section:not(.specialSection){
+
     border-width: 2px;
     border-style: solid;
     border-color:  rgb(34, 21, 2);
