@@ -2,18 +2,43 @@
 
 .history{
     background-color: #95a7b6;
+    margin: auto;
+    padding: 8px;
+    
 }
 
 .newEntry{
     background-color: rgb(58, 79, 68);
+    margin: auto;
+    padding: 8px;
+    
 }
 
 .note{
     background-color: hsl(10,20,30);
 }
 
+
+
 section{
-    width: 50vw
+    width: 50vw;
+    margin: 10px 5px 10px 5px;
+}
+.special{
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:  rgb(34, 21, 2);
+    border-radius: 1em;
+}
+section:not(.specialSection){
+
+    border-width: 2px;
+    border-style: solid;
+    border-color:  rgb(34, 21, 2);
+    border-radius: 1em;
+    padding: 8px;
+    
 }
 
 img{
@@ -29,9 +54,26 @@ audio{
 }
 
 ul{
-    width: 12em
+    width: 12em;
+    padding-top: 0px;
+    padding-bottom:0px;
+    padding-left:50px;
+    padding-right:0px;
 }
 
 ol{
-    width: 12rem
+    width: 12rem;
+    padding: 0px,0px,50px,0px;
+}
+
+h1,h2,h3{
+    margin-top: 2px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0em;
+    
+}
+
+.headers{
+    border-bottom: 5px double rgb(3, 12, 48);
 }
