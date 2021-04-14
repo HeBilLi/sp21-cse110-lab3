@@ -11,3 +11,27 @@
 .note{
     background-color: hsl(10,20,30);
 }
+
+section{
+    width: 50vw
+}
+
+img{
+    width: 10cm
+}
+
+video{
+    width: 4in
+}
+
+audio{
+    width: 100mm
+}
+
+ul{
+    width: 12em
+}
+
+ol{
+    width: 12rem
+}
