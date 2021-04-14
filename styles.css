@@ -1,0 +1,13 @@
+/* This is a style css to the index.html in the root*/
+
+.history{
+    background-color: #95a7b6;
+}
+
+.newEntry{
+    background-color: rgb(58, 79, 68);
+}
+
+.note{
+    background-color: hsl(10,20,30);
+}
