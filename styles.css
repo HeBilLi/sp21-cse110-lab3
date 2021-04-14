@@ -23,6 +23,9 @@
 section{
     width: 50vw;
     margin: 10px 5px 10px 5px;
+    display: block;
+    min-width: 500px;
+    max-width: 800px;
 }
 .special{
     padding: 10px;
@@ -85,4 +88,9 @@ h1,h2,h3{
     text-decoration-color: rgb(4, 85, 41);
     text-align:start;
 
+}
+
+.header{
+    display: inline;
+    margin: 20px;
 }
