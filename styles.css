@@ -1,5 +1,11 @@
 /* This is a style css to the index.html in the root*/
 
+@media (min-width: 80rem) {
+    section {
+      background-color: rgb(73, 149, 174);
+    }
+  }
+
 .history{
     background-color: #95a7b6;
     margin: auto;
