@@ -13,6 +13,9 @@
 * {
     font-family: robot;
 }
+a[target="_blank"] { 
+    background-color: rgb(179, 133, 129);
+}
 
 .history{
     background-color: #95a7b6;
