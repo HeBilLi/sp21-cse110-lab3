@@ -10,7 +10,7 @@
     font-family: robot;
     src: url(resources/Roboto-Regular.ttf);
 }
-p,ul,ol {
+* {
     font-family: robot;
 }
 
