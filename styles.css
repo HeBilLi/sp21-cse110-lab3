@@ -8,7 +8,7 @@
 }
 
 .newEntry{
-    background-color: rgb(58, 79, 68);
+    background-color: rgb(149, 172, 160);
     margin: auto;
     padding: 8px;
     
@@ -27,11 +27,11 @@ section{
     min-width: 500px;
     max-width: 800px;
 }
-.special{
+#newSec{
     padding: 10px;
     border-width: 2px;
     border-style: solid;
-    border-color:  rgb(34, 21, 2);
+    border-color:  rgb(40, 25, 3);
     border-radius: 1em;
 }
 section:not(.specialSection){
@@ -82,6 +82,7 @@ h1,h2,h3{
 }
 
 .funny{
+    position: static;
     color: rgb(12, 30, 101);
     text-decoration-line: underline;
     text-decoration-style: wavy;
@@ -91,6 +92,7 @@ h1,h2,h3{
 }
 
 .header{
+    position: sticky;
     display: inline;
     margin: 20px;
 }
