@@ -1,6 +1,6 @@
 /* This is a style css to the index.html in the root*/
 
-@media (min-width: 80rem) {
+@media (min-width: 100rem) {
     section {
       background-color: rgb(73, 149, 174);
     }
