@@ -44,7 +44,7 @@ section:not(.specialSection){
     
 }
 
-img{
+img:not(.gridImg){
     width: 10cm
 }
 
@@ -81,6 +81,14 @@ h1,h2,h3{
     border-bottom: 5px double rgb(3, 12, 48);
 }
 
+.container{
+    background-color: rgb(71, 193, 193);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;
+}
+
 .headers:active{
     font-size: xx-large;
 }
@@ -104,3 +112,12 @@ button:hover {
     background-color: rgb(208, 129, 145);
     font-size: 20px;
   }
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+    grid-template-rows: 50% auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
