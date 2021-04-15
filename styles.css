@@ -85,6 +85,22 @@ ol{
     padding: 0px,0px,50px,0px;
 }
 
+ol li{
+    padding-left: 10px;
+}
+
+p > i {
+    background-color: rgb(198, 139, 139);
+}
+
+h4 ~ button{
+    background-color: rgb(167, 183, 228);
+}
+
+li:first-of-type + li {
+    background-color: rgb(138, 187, 230);
+}
+
 h1,h2,h3{
     margin-top: 2px;
     margin-right: 0px;
@@ -136,4 +152,8 @@ button:hover {
     grid-template-rows: 50% auto;
     row-gap: 10px;
     column-gap: 10px;
+}
+
+section.specialSection{
+    margin-top: 50px;
 }
