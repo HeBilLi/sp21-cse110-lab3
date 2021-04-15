@@ -4,7 +4,15 @@
     section {
       background-color: rgb(73, 149, 174);
     }
-  }
+}
+
+@font-face {
+    font-family: robot;
+    src: url(resources/Roboto-Regular.ttf);
+}
+p,ul,ol {
+    font-family: robot;
+}
 
 .history{
     background-color: #95a7b6;
@@ -23,7 +31,6 @@
 .note{
     background-color: hsl(10,20,30);
 }
-
 
 
 section{
