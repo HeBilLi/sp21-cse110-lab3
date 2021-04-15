@@ -81,6 +81,10 @@ h1,h2,h3{
     border-bottom: 5px double rgb(3, 12, 48);
 }
 
+.headers:active{
+    font-size: xx-large;
+}
+
 .funny{
     position: static;
     color: rgb(12, 30, 101);
@@ -96,3 +100,7 @@ h1,h2,h3{
     display: inline;
     margin: 20px;
 }
+button:hover {
+    background-color: rgb(208, 129, 145);
+    font-size: 20px;
+  }
